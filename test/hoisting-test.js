@@ -13,9 +13,7 @@ chai.use(spies)
 const expect = chai.expect
 
 describe('hoisting', () => {
-  jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'hoisting.js'), 'utf-8')
-  })
+
 
   describe('callMe', () => {
     it("returns the string 'maybe'", () => {
