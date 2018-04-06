@@ -9,14 +9,12 @@ function callMe() {
   return lyric;
 }
 
-
+// hoisting crazy prints 'hey!!!' to the console from the nested function
 function crazy() {
-  // fix the code in here:
-  thisIsCrazy();
-
   var thisIsCrazy = function (){
     console.log("hey!!!");
   };
+  thisIsCrazy();
 }
 
 
