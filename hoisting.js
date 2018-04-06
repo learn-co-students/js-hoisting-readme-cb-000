@@ -18,14 +18,13 @@ function crazy() {
 }
 
 
+// hoisting sayMyName prints 'Kristin' to the console from the nested function
 function sayMyName() {
-  // fix the code in here:
   var name = "Cricky";
 
-  sayMy();
-
   function sayMy() {
-    console.log(name);
     var name = "Kristin";
+    console.log(name);
   }
+  sayMy();
 }
