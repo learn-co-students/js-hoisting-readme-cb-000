@@ -9,7 +9,7 @@ function callMe() {
 
 
 function crazy() {
-  // fix the code in here:
+  // fix the code in here:a
   thisIsCrazy();
 
   var thisIsCrazy = function (){
